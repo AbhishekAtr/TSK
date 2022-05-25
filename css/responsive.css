@@ -1,0 +1,439 @@
+@media only screen and (max-width: 1200px) and (min-width:1024px) {
+    .testimonial-img img {
+        width: 69%;
+        position: absolute;
+        top: 5%;
+        right: -62%;
+    }.main-banner {
+        
+        padding: 200px 0 125px 0;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        margin-left: 6%;
+    }
+
+}
+
+
+/* ****for ipad */
+
+@media only screen and (max-width: 1023px) {
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }.mail-icon {
+        bottom: 48px;
+        left: 52px;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        margin-left: 0%;
+    }
+
+    .collapse.navbar-collapse {
+        display: none !important;
+    }
+
+    .navbar-expand-md.navbar-collapse {
+        flex-basis: 100% !important;
+    }
+
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        display: none !important;
+    }
+
+    .collapse.show {
+        display: block !important;
+    }
+
+    .navbar-collapse .navbar-nav {
+        width: 100%;
+    }
+
+    .di-none1 {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem 1rem .5rem !important;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column !important;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        flex-basis: 100%;
+    }
+
+    .banner-card {
+        margin-top: 11%;
+    }
+
+    .banner-slide .slick-dots {
+        left: -44%;
+        top: 110%;
+    }
+
+    .main-banner {
+        padding: 148px 0 76px 0;
+    }
+
+    .service-heading p {
+        width: 100%;
+    }
+
+    .testimonial-img {
+        display: none;
+    }
+
+    .footer-address {
+        margin-top: 3%;
+    }
+
+    .blog-heading p {
+        width: 100%;
+    }
+
+    .blog-card {
+        margin-bottom: 24px;
+    }
+
+    .mission-card {
+        margin-bottom: 15px;
+    }
+
+    .about-content {
+        margin-top: 30px;
+    }
+
+    .practice-padding {
+        border: 1px solid rgba(0, 0, 0, .125);
+    }
+
+    .service-detail-banner {
+        height: 25vh;
+    }
+
+    .career-card {
+        padding: 30px 30px;
+    }
+
+    .bulletin-card ul {
+        margin-left: 63%;
+        margin-top: 25px;
+    }
+
+    .bulletin-card h2 {
+        font-size: 47px;
+    }
+
+    .contact-address {
+        width: 100%;
+    }
+
+    .header-sidebar {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        z-index: 99999;
+        background: #fff;
+        width: 100%;
+    }
+
+    header .logo-brown {
+        display: block
+    }
+
+    .logo-white {
+        display: none;
+    }
+
+    .logo-brown {
+        display: block;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #cba36e !important;
+    }
+
+    .navbar-toggler-icon i {
+        color: #c89d66;
+    }
+
+    .nav-link {
+        color: #3c3c3c;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        right: 51px;
+        top: 19px;
+    }
+
+    .about-banner-heading ul {
+        display: flex;
+        margin: 0 40%;
+    }
+
+    footer {
+        background-image: none !important;
+    }
+
+    .about-section {
+        background-image: none !important;
+    }
+
+    .footer-margin {
+        margin-left: 0px;
+        color: #3c3c3c !important;
+    }
+
+ 
+}
+
+
+
+
+
+
+
+/* ****mobile phone */
+@media only screen and (max-width: 767px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .banner-content {
+        color: #fff;
+        padding: 0 0px 0 0;
+    }
+
+    .special-category {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        position: unset;
+        width: 100%;
+        margin-left: 0;
+        top: unset;
+    }
+
+    .special-category-card {
+        background: #c89d66;
+        padding: 22px 15px;
+        margin: 15px;
+    }
+
+    .special-category-card1 {
+        background: #34322F;
+        padding: 22px 15px;
+        margin: 15px;
+    }
+
+    .banner-card {
+        display: none;
+    }#navs{
+        left: 12px;
+        
+    bottom: 97px;
+    }
+    .call-icon {
+        bottom: 93px;
+        right: 12px;
+    }
+    .about-section {
+        padding: 30px 0px;
+    }.mail-icon{
+        left: 12px;
+    }.whatsapp-icon {
+        bottom: 37px;
+        right: 12px;
+    }
+
+    .about-content {
+        padding-top: 28px;
+        padding-left: 0;
+    }
+
+    .about-content button {
+        margin-top: 11px;
+    }
+
+    .service-heading p {
+        width: 100%;
+    }
+
+    .testimonial-img {
+        display: none;
+    }
+
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content img {
+        width: 19%;
+        margin-bottom: 10px;
+    }
+
+    .blog-heading p {
+        width: 100%;
+    }
+
+    .blog-card {
+        border: 1px solid #d0d0d0;
+        margin-bottom: 21px;
+    }
+
+    .footer-about {
+        margin-bottom: 19px;
+    }
+
+    .banner-slide .atul1 {
+        top: 115%;
+        left: 19%;
+    }
+
+    .main-banner {
+        padding: 136px 0 67px 0;
+    }
+
+    .mission-card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 5px;
+        padding: 24px 16px;
+        text-align: center;
+        transition: 0.5s;
+        margin-bottom: 15px;
+    }
+
+    .about-content h1 {
+        font-size: 30px;
+        font-family: "nunito-bold";
+    }
+
+    .service-heading p {
+        font-size: 30px;
+    }
+
+    .testimonial-content {
+        text-align: center;
+        color: #fff;
+        padding: 50px 14px;
+    }
+
+    .blog-heading p {
+        font-size: 30px;
+    }
+
+    .team-heading h1 {
+        font-family: "nunito-bold";
+        font-size: 30px;
+    }
+
+    .practice-heading h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .practice-padding {
+        border-right: 1px solid rgba(0, 0, 0, .125);
+        border-bottom: 1px solid rgba(0, 0, 0, .125);
+    }
+
+    .career-card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        padding: 25px 20px;
+    }
+
+    .career-card h2 {
+        font-size: 23px;
+    }
+
+    .contact-card {
+        border: 1px solid rgba(0, 0, 0, .125);
+        padding: 30px 20px;
+    }
+
+    .contact-card h2 {
+        line-height: 1.2;
+        font-family: "nunito-bold";
+        font-size: 23px;
+    }
+
+    .contact-card h2 span {
+        color: #c89d66;
+        line-height: 0.2;
+        font-size: 30px;
+        font-family: 'Caveat', cursive;
+    }
+
+    .contact-address {
+        width: 100%;
+    }
+
+    .header-sidebar {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    footer {
+        background-image: none !important;
+    }
+
+    .about-section {
+        background-image: none !important;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        right: 30px;
+        top: 19px;
+    }
+
+    .footer-margin {
+        margin-left: 0px;
+        color: #3c3c3c !important;
+    }
+
+    .about-banner-heading ul {
+        display: flex;
+        margin: 0px 30%;
+    }
+
+    .test-slide .slick-dots {
+        bottom: 15px;
+        left: 5%;
+    }
+
+    .bulletin-card ul {
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+}

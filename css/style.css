@@ -1,0 +1,1389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "GT Walsheim Pro";
+    src: local("GT Walsheim Pro Regular"), local("GTWalsheimProRegular"), url(../font/GTWalsheimPro-CondensedLight.woff2) format("woff2"), url(GTWalsheimProRegular.woff) format("woff"), url(../../fonts/GT-Walsheim-Pro-Light.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "GT Walsheim Pro Regular";
+    src: local("GT Walsheim Pro Regular"), local("GTWalsheimProRegular"), url(../font/GTWalsheimPro-CondensedRegular.woff2) format("woff2"), url(GTWalsheimProRegular.woff) format("woff"), url(../../fonts/GT-Walsheim-Pro-Regular.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "GT Walsheim Pro medium";
+    src: local("GT Walsheim Pro Regular"), local("GTWalsheimProRegular"), url(../font/GTWalsheimPro-CondensedMedium.woff2) format("woff2"), url(GTWalsheimProRegular.woff) format("woff"), url(../../fonts/GT-Walsheim-Pro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "GT Walsheim Pro Bold";
+    src: local("GT Walsheim Pro Regular"), local("GTWalsheimProRegular"), url(../font/GTWalsheimPro-Bold.woff2) format("woff2"), url(GTWalsheimProRegular.woff) format("woff"), url(../../fonts/GT-Walsheim-Pro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "GT Walsheim Pro Regular";
+    color: #3c3c3c;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #3c3c3c;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-main {
+    background: #fe9d01;
+    padding: 6px 20px;
+    border: none;
+    color: #fff;
+    border: 1px solid #fe9d01;
+}
+
+.btn-main:hover {
+    color: #fe9d01;
+    border: 1px solid #fe9d01;
+}
+
+.btn-main:hover a {
+
+    color: #fe9d01;
+}
+
+.btn-main a {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+
+
+header {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 64%;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: "GT Walsheim Pro medium";
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.navbar-custom {
+    padding: 10px 0px;
+}
+
+.main-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:200px 0 213px 0;
+;}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-content h3 {
+    font-size: 21px;
+    font-family: 'GT Walsheim Pro medium';
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.banner-card-content {
+    background: #e6e6e6;
+    padding: 21px 20px;
+    margin-bottom: 17px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.banner-card-content img {
+    width: 21%;
+}
+
+.banner-card-content h4 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.banner-slide .atul1 {
+    border-radius: 50%;
+    color: #000;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    width: 50px;
+    border: none;
+    height: 50px;
+    background: #dadada;
+}
+
+.banner-slide .atul {
+    border-radius: 50%;
+    color: #000;
+    position: absolute;
+    top: 115%;
+    left: 0%;
+    width: 50px;
+    border: none;
+    height: 50px;
+    background: #dadada;
+}
+
+.special-category {
+    margin-top: -59px;
+    margin-left: 28px;
+}
+
+.special-category-card {
+    background: #fe9d01;
+    padding: 22px 15px;
+}
+
+.special-category-card1 {
+    background: #34322F;
+    padding: 22px 15px;
+}
+
+.special-category-content p {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.special-category-content h3 {
+    font-family: "GT Walsheim Pro Bold";
+    color: #fff;
+    font-size: 24px;
+}
+
+.special-category-img {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.special-category-img img {
+    width: 76%;
+}
+
+.special-category-content {
+    margin-top: 5px;
+    margin-left: -30px;
+}
+
+.about-content {
+    padding-left: 26px;
+}
+
+.about-content h3 {
+    font-size: 21px;
+    color: #fe9d01;
+    font-family: 'GT Walsheim Pro medium';
+}
+
+.about-content h1 {
+    font-size: 39px;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.about-content p {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+/* .about-section{
+    padding-top: 114px;
+} */
+.about-content button {
+    margin-top: 30px;
+}
+
+.service-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1.jpg);
+    background-size: cover;
+    padding: 45px 0;
+}
+
+.service-heading {
+    color: #fff;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.service-heading h3 {
+    font-size: 21px;
+    font-family: 'GT Walsheim Pro medium';
+}
+
+.service-heading p {
+    width: 60%;
+    margin: auto;
+    line-height: 1.2;
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 35px;
+}
+
+.service-heading p span {
+    color: #fe9d01;
+    font-size: 39px;
+    font-family: 'Caveat', cursive;
+}
+
+.service-card {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    border: 2px dotted #797272;
+    padding: 23px 17px;
+    transition: 0.5s;
+}
+
+.service-card:hover {
+    transition: 0.5s;
+    /* background: #fe9d01; */
+    border: 2px dotted #fe9d01;
+}
+
+.service-card img {
+    width: 16%;
+}
+
+.service-card h3 {
+    font-family: "GT Walsheim Pro Bold";
+    color: #fff;
+    font-size: 24px;
+    margin-top: 19px;
+}
+
+.testimonial-card {
+    background: #34322f;
+    margin-left: 15px;
+    margin-top: 46px;
+}
+
+.testimonial-content {
+    text-align: center;
+    color: #fff;
+    padding: 29px 68px 60px 68px;
+}
+
+.testimonial-content img {
+    width: 14%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.testimonial-content h3 {
+    font-family: "GT Walsheim Pro Bold";
+    color: #fff;
+    font-size: 24px;
+    margin-top: 19px;
+}
+
+.testimonial-content h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.testimonial-content p {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+.blog-heading {
+    color: #3c3c3c;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.blog-heading h3 {
+    font-size: 21px;
+    font-family: 'GT Walsheim Pro medium';
+}
+
+.blog-heading p {
+    width: 60%;
+    margin: auto;
+    line-height: 1.2;
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 35px;
+}
+
+.blog-heading p span {
+    color: #fe9d01;
+    font-size: 39px;
+    font-family: 'Caveat', cursive;
+}
+
+.blog-img {
+    background-image: url(../images/istockphoto-1188020559-612x612.jpg);
+    height: 29vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.blog-card {
+    border: 1px solid #d0d0d0;
+
+}
+
+.blog-content {
+    padding: 9px 14px;
+}
+
+.blog-content h3 {
+    font-size: 14px;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.blog-content h2 {
+    font-size: 18px;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.blog-content p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 7px;
+}
+
+.blog-content a {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 15px;
+}
+
+.footer-about img {
+    width: 15%;
+}
+
+.footer-about h3 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 22px;
+    margin-top: 21px;
+}
+
+.quick-links h3 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 22px;
+}
+
+.quick-links ul li a i {
+    color: #fe9d01;
+    margin-right: 5px;
+}
+
+.quick-links ul li a {
+    font-family: "GT Walsheim Pro medium";
+    font-size: 17px;
+}
+
+.footer-address h3 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 22px;
+}
+
+.footer-address ul li a {
+    font-family: "GT Walsheim Pro medium";
+}
+
+.footer-address ul li a i {
+    color: #fe9d01;
+    margin-right: 2px;
+}
+
+.footer-address ul li a span {
+    color: #fe9d01;
+}
+
+.footer-last {
+
+    border-top: 1px solid #afafaf;
+    margin-top: 22px;
+    padding: 12px 0;
+    text-align: center;
+
+}
+
+.sticky {
+    background: #fff;
+    transition: 0.5s;
+    top: 0;
+    box-shadow: 4px -9px 13px 0px;
+}
+
+.sticky .navbar-nav .nav-item .nav-link {
+    color: #3c3c3c;
+    font-family: "GT Walsheim Pro medium";
+}
+
+.sticky .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid #fe9d01 !important;
+    border-radius: .25rem;
+}
+
+.sticky .navbar-toggler-icon i {
+    color: #fe9d01;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid #fff !important;
+    border-radius: .25rem;
+}
+
+.navbar-toggler-icon i {
+    color: #fff;
+}
+
+.about-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner3.jpg);
+    background-size: cover;
+    padding: 138px 1px 119px 0;
+}
+
+.about-banner-heading {
+    text-align: center;
+}
+
+.about-banner-heading ul {
+    display: flex;
+    margin: 0 44%;
+}
+
+.about-banner-heading h2 {
+    color: #fff;
+    /* font-family: 'nunito-bold'; */
+    font-size: 41px;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.about-banner-heading ul li a {
+    color: #fe9d01;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.breadcub_s {
+    margin: 0px 8px;
+}
+
+.about-banner-heading ul li {
+    color: #fff;
+    font-size: 15px;
+}
+
+.mission-card {
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0px 1px 13px 0px #dedede;
+    border-radius: 5px;
+    padding: 24px 16px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.mission-card:hover {
+    background: #fe9d01;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.mission-card h3 {
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.our-team-about {
+    background-image: url(../images/bg4.png);
+    background-size: cover;
+    padding: 39px 1px;
+}
+
+.team-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-heading h3 {
+    font-size: 21px;
+    font-family: 'GT Walsheim Pro medium';
+}
+
+.team-heading h1 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 35px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-card img {
+    width: 68%;
+    border-radius: 50%;
+    height: 170px;
+}
+
+.team-card h2 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 25px;
+    margin-top: 19px;
+    margin-bottom: 0;
+}
+
+
+.career-card h2 {
+    font-family: "GT Walsheim Pro Bold";
+    margin-bottom: 10px;
+}
+
+.career-card p {
+    margin-bottom: 7px;
+}
+
+.career-card p a {
+    color: #fe9d01;
+    font-family: "GT Walsheim Pro Bold";
+}
+
+.practice-heading h2 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 35px;
+    margin-bottom: 33px;
+}
+
+.practice-card {
+    text-align: center;
+    padding: 30px 18px;
+}
+
+.practice-card img {
+    width: 21%;
+    margin-bottom: 15px;
+}
+
+.practice-card h3 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.practice-card p {
+    line-height: 1.2;
+    height: 76px;
+}
+
+.practice-padding {
+    padding: 0;
+    border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.practice-card-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.team-profile {
+    padding: 20px 25px;
+    box-shadow: 0px 1px 13px 0px #dedede;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.team-profile:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.team-profile img {
+    width: 47%;
+}
+
+.team-profile h2 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 25px;
+    margin-top: 19px;
+    margin-bottom: 0;
+}
+
+.team-profile a {
+    color: #fe9d01;
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 13px;
+}
+
+
+
+.contact-card h2 {
+    line-height: 1.2;
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 38px;
+}
+
+.contact-card h2 span {
+    color: #fe9d01;
+    line-height: 0.2;
+    font-size: 49px;
+    font-family: 'Caveat', cursive;
+}
+
+.contact-address {
+    width: 64%;
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-links ul li a i {
+    border: 1px solid;
+    width: 37px;
+    border-radius: 50%;
+    height: 37px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 7px;
+    transition: 0.5s;
+}
+
+.social-links ul li a i:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.social-links ul li a .fa-facebook {
+    background: #4267B2;
+    border: 1px solid #4267B2;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.social-links ul li a .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border: 1px solid radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.social-links ul li a .fa-linkedin {
+    background: #0077b5;
+    border: 1px solid #0077b5;
+    color: #fff;
+    transition: 0.5s;
+}
+
+header .logo-brown {
+    display: none;
+    
+}
+
+.sticky .logo-brown {
+    display: block;
+}
+
+.logo-brown,.logo-white
+{
+    width: 10%;
+}
+
+.sticky .logo-white {
+    display: none;
+}
+
+header .sidebar-black {
+    display: none;
+}
+
+.sticky .sidebar-black {
+    display: block;
+}
+
+.sticky .sidebar-white {
+    display: none;
+}
+
+.nav-item .nav-link:hover {
+    color: #fe9d01;
+}
+
+.service-detail-banner {
+    background-image: url(../images/depositphotos_386210966-stock-photo-portrait-young-business-indian-man.jpg);
+    background-size: cover;
+    height: 59vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 59vh;
+}
+
+.career-card h3 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 25px;
+}
+
+.header-sidebar {
+    width: 20%;
+    float: right;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99999999;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 9px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.bulletin-card ul {
+    margin-left: 74%;
+    margin-top: 25px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #3c3c3c;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.bulletin-card h2 {
+    font-family: "GT Walsheim Pro Bold";
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+footer {
+    position: relative;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 16%;
+    background-color: white;
+}
+
+.designby p {
+    margin-bottom: 0;
+}
+
+
+.career-banner {
+    background-image: url(../images/statue.png);
+    background-size: cover;
+}
+
+.testimonial-img img {
+    width: 55%;
+    position: absolute;
+    top: 5%;
+    right: -49%;
+}
+
+.test-slide .slick-dots {
+    bottom: 23px;
+    left: 2%;
+}
+
+.header-sidebar:hover {
+    cursor: pointer;
+}
+
+.blog-btn {
+    background: #fe9d01;
+    padding: 9px 11px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-margin {
+    margin-left: 14px;
+    color: #3c3c3c !important;
+}
+
+.about-section .img-corner {
+    width: 12%;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    z-index: 9999999;
+}
+
+.about-section {
+    position: relative;
+    background-image: url('../images/homequery-bg.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.about-section .img-corner1 {
+    width: 19%;
+    position: absolute;
+    bottom: -34px;
+
+}
+
+.timing-card h4 {
+    font-family: 'GT Walsheim Pro Bold';
+}
+
+.about-section1 .img-corner {
+    width: 12%;
+    position: absolute;
+    right: 0;
+    top: -7%;
+}
+
+.blog-banner {
+    position: relative;
+}
+
+.blog-banner .img-corner {
+    position: absolute;
+    width: 12%;
+    right: 0;
+    top: -30px;
+}
+
+.blog-banner .img-corner1 {
+    position: absolute;
+    width: 19%;
+    bottom: 0;
+}
+
+.career-card-banner {
+    position: relative;
+}
+
+.career-card-banner .img-corner {
+    width: 12%;
+    right: 0;
+    top: -33px;
+    position: absolute;
+}
+
+.career-card-banner .img-corner1 {
+    position: absolute;
+    width: 19%;
+    top: -31px;
+}
+
+.bulletin-banner {
+    position: relative;
+}
+
+.bulletin-banner .img-corner {
+    position: absolute;
+    width: 12%;
+    right: 0;
+    top: -36px;
+}
+
+.bulletin-banner .img-corner1 {
+    position: absolute;
+    width: 19%;
+    left: 0;
+    bottom: 0px;
+}
+
+.navbar-expand-md .navbar-collapse {
+    margin-left: 13%;
+
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #fe9d01;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    z-index: 99999;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #fe9d01;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    z-index: 99;
+    display: none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.theme-border:before {
+    content: "";
+    border-top: 10px solid #fe9d01;
+    border-left: 10px solid #fe9d01;
+    border-right: 10px solid #fe9d01;
+    width: 100%;
+    display: block;
+    height: 30%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.theme-border:after {
+    content: "";
+    border-bottom: 10px solid #fe9d01;
+    border-left: 10px solid #fe9d01;
+    border-right: 10px solid #fe9d01;
+    width: 100%;
+    display: block;
+    height: 30%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.content-area {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.content-area h3 {
+    font-family: "GT Walsheim Pro Bold";
+    color: #fff;
+    font-size: 24px;
+    margin-top: 19px;
+}
+
+.img-fluid,
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.ulockd-srvc-column {
+    background-color: white;
+    padding: 13px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgb(204 204 204 / 46%);
+    display: table;
+    margin-bottom: 75px;
+}
+
+.service-two {
+    margin-top: 50px;
+    background-color: #ddb6b638;
+    padding-top: 80px;
+}
+
+.ulockd-mb50 {
+    margin-bottom: 70px !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.ulockd-srvc-details.style2 {
+    padding-left: 4px;
+    /* float: left; */
+    width: 100%;
+    margin-top: 33px;
+}
+
+.ulockd-srvc-column .ulockd-srv-icon {
+    color: #fff;
+    display: inline;
+    font-size: 36px;
+    width: 24%;
+    border-radius: 5px;
+    margin-top: -50px;
+    padding: 8px 13px;
+    background-color: #fe9d01 !important;
+    position: relative;
+}
+
+.ulockd-srvc-details.style2 h3 {
+    font-family: "GT Walsheim Pro Bold";
+    color: black;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.ulockd-srvc-details.style2 p {
+    margin-bottom: 0;
+    color: black;
+}
+.pt_30{
+    padding: 50px 0px;
+}
+
+/* social media css start */
+#navs:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #fe9d01;
+    content: attr(data-close);
+    z-index: 1;
+}
+
+#navs.active:after {
+    content: attr(data-open);
+}
+
+#navs {
+    position: fixed;
+    left: 52px;
+   
+    bottom: 120px;
+
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+#navs>li {
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: .6s;
+}
+
+#navs>li {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#navs a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* a.fb {
+    background: #3a53af;
+}
+a.wht {
+    background: #0b64c3;
+}
+a.msg {
+    background: #a00c0c;
+}
+a.call {
+    background: #11c6f1;
+} */
+#navs i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#navs li a img {
+    width: 100%;
+}
+
+
+/* important icons */
+.whatsapp-icon {
+    position: fixed;
+    
+    bottom: 40px;
+    right: 5%;
+    z-index: 9999;
+}
+
+.whatsapp-icon a i {
+    background: rgb(0 178 9);
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 27px;
+}
+
+.call-icon {
+    position: fixed;
+    bottom: 120px;
+    z-index: 9999;
+    right: 5%;
+}
+
+.call-icon a img {
+    background-color: #fe9d01;
+    width: 50px;
+    height: 50px;
+    padding: 16px 11px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    line-height: 24px;
+}
+
+/* .call-icon {
+    width: 42px !important;
+    margin-top: -8px;
+    margin-left: -13px;
+} */
+
+.mail-icon {
+    position: fixed;
+    bottom: 40px;
+    z-index: 9999;
+    left: 52px;
+}
+
+.mail-icon a {
+    background: #804F9F;
+    padding: 15px 9px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.mail-icon a img {
+    width: 32px;
+    height: 38px;
+    margin-top: -8px;
+}
+
+/* Start Gallery CSS */
+.thumb {
+	margin-bottom: 15px;
+}
+.thumb:last-child {
+	margin-bottom: 0;
+}
+/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
+.thumb 
+figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.thumb 
+figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
